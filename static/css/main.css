@@ -19,6 +19,7 @@ header h1{
 
 /* links */
 .links ul{
+    padding: 0;
     margin: 10px;
     text-align: center;
 }
