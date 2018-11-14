@@ -28,7 +28,7 @@ header h1{
     margin: 0 1% 0 1%;
     display: inline;
     color: white;
-    background-color: #004d3d;
+    background-color: #00997a;
     box-shadow: 0 5px 5px #000;
 }
 
@@ -36,12 +36,16 @@ header h1{
 .left_col{
     width: 200px;
     float: left;
+    padding: 10px;
     margin: 0 20px 0 20px;
+    color: white;
+    background-color: #00b38f;
+    box-shadow: 0 5px 5px #000;
 }
 
 /* content */
 .content{
-    margin: 40px 240px 40px 240px;
+    margin: 40px 260px 40px 260px;
 }
 
 /* right column */
@@ -52,6 +56,10 @@ header h1{
     right: 0px;
     float: right;
     margin: 0 20px 0 20px;
+    padding: 10px;
+    color: white;
+    background-color: #00b38f;
+    box-shadow: 0 5px 5px #000;
 }
 
 /* footer */
