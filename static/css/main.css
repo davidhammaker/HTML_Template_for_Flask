@@ -18,12 +18,12 @@ header h1{
 }
 
 /* links */
-ul{
+.links ul{
     margin: 10px;
     text-align: center;
 }
 
-ul li{
+.links ul li{
     padding: 10px 5%;
     margin: 0 1% 0 1%;
     display: inline;
@@ -32,9 +32,26 @@ ul li{
     box-shadow: 0 5px 5px #000;
 }
 
+/* left column */
+.left_col{
+    width: 200px;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+
 /* content */
-div.content{
-    margin: 40px 15%;
+.content{
+    margin: 40px 240px 40px 240px;
+}
+
+/* right column */
+.right_col{
+    position: absolute;
+    width: 200px;
+    top: 120px;
+    right: 0px;
+    float: right;
+    margin: 0 20px 0 20px;
 }
 
 /* footer */
