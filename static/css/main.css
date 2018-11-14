@@ -7,8 +7,8 @@ body{
 
 /* header */
 header{
-    background-color: #4d94ff;
-    box-shadow: 0 5px #0047b3;
+    background-color: #008066;
+    box-shadow: 0 5px 5px #000;
 }
 
 header h1{
@@ -28,19 +28,19 @@ ul li{
     margin: 0 1% 0 1%;
     display: inline;
     color: white;
-    background-color: #1a75ff;
-    box-shadow: 0 5px #0047b3;
+    background-color: #004d3d;
+    box-shadow: 0 5px 5px #000;
 }
 
 /* content */
 div.content{
-    margin: 20px 15%;
+    margin: 40px 15%;
 }
 
 /* footer */
 footer{
     padding: 20px 10%;
     color: white;
-    background-color: #4d94ff;
-    box-shadow: 0 -5px #0047b3
+    background-color: #008066;
+    box-shadow: 0 -5px 5px #000
 }
