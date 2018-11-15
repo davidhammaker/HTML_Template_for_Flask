@@ -75,7 +75,40 @@ header h1{
 /* footer */
 footer{
     padding: 20px 10%;
+    margin-top: 20px;
     color: white;
     background-color: #396039;
     box-shadow: 0 -5px 5px #000
+}
+
+/* screen < 800px */
+@media screen and (max-width: 800px){
+    /* content */
+    .content{
+        margin: 40px 20px 40px 260px;
+    }
+
+    /* right column */
+    .right_col{
+        margin: 40px 20px 40px 20px;
+        position: static;
+        width: auto;
+        float: none;
+    }
+}
+
+/* screen < 600px */
+@media screen and (max-width: 600px){
+    /* left column */
+    .left_col{
+        margin: 40px 20px 40px 20px;
+        width: auto;
+        float: none;
+    }
+
+    /* content */
+    .content{
+        margin: 40px 20px 40px 20px;
+    }
+
 }
